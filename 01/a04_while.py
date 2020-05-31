@@ -8,5 +8,15 @@
 #     name = input("please type your name: ")
 # print("thank you")
 
+# while True:
+#     print("végtelen")
+
+i = 0
 while True:
-    print("végtelen")
+    i += 1
+    if i == 3:
+        continue
+    print(i)
+    if i==10:
+        break
+print("ennyi volt")
