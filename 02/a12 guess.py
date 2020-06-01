@@ -9,12 +9,15 @@ for i in range(1, num_guesses+1):
     guess = input("Take a guess: ")
     try:
         guess_num = int(guess)
+        print("ezt kell kitalálni: " + guess)
     except:
         print("nem számot ütöttél be !")
         continue
     if guess_num == num:
         print("eltaláltad " + str(i) + " lépésben")
         sys.exit()
+    elif guess_num > num:
+        print("kisebbet adjál")
     else:
-        continue
+        print("nagyobbat adjál")
 print("csúfos kudarc, " + str(num_guesses) + " lépésben se tudtad kitalálni.")
