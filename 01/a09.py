@@ -5,4 +5,13 @@
 # print("aa", end="")
 # print("bb")
 
-print('a', 'b', 'c', sep='')
+#print('a', 'b', 'c', sep='')
+
+eggs =22
+
+def alma():
+    #global eggs
+    eggs =33
+    #print(eggs)
+alma()
+print(eggs)
