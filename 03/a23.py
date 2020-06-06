@@ -10,7 +10,8 @@ tels = []
 for i in range(len(lista)):
     if lista[i][0]:
         tels.append(lista[i][0])
-print(tels)
+# print(tels)
+print(" **** ".join(tels))
 
 # TODO: create regex for email addresses
 szoveg = "a.b@c.d a_+_.B.c@d_+.e_+ a,b@.."
@@ -26,8 +27,8 @@ emails = []
 for i in range(len(lista)):
     if lista[i]:
         emails.append(lista[i])
-print(emails)
-
+# print(emails)
+print(" ++++ ".join(emails))
 
 
 # TODO: create regex for phone numbers
