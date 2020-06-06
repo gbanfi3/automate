@@ -16,7 +16,7 @@ mesRegex = re.compile(r'bat(man|valami|mobile|ss)')
 mo = mesRegex.search(message)
 print(mo.group())
 
-message = "a batw6oman akármi batss"
-mesRegex = re.compile(r'bat(wo)?man')
+message = "a batwowoman akármi batss"
+mesRegex = re.compile(r'bat(wo)+man')
 mo = mesRegex.search(message)
 print(mo.group())
