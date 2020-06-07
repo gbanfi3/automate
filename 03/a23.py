@@ -28,7 +28,9 @@ for i in range(len(lista)):
     if lista[i]:
         emails.append(lista[i])
 # print(emails)
-print(" ++++ ".join(emails))
+
+results = "\n".join(emails)
+print(results)
 
 
 # TODO: create regex for phone numbers
