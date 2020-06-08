@@ -1,6 +1,6 @@
 import os
 
-# hellofile = open("./aldir/file01.txt")
+# hellofile = open("./aldir/file01_orig.txt")
 # # a = hellofile.read()
 # b = hellofile.readlines()
 # hellofile.close()
