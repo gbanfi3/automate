@@ -9,7 +9,9 @@ def switchLamp(intersection):
             intersection[key] = "red"
         else:
             intersection[key] = "green"
-#    assert "red" in intersection.values(), "nincs benne red!"
+    assert "red" in intersection.values(), "nincs benne red!" + str(lampa)
+
+
 
 print(lampa)
 switchLamp(lampa)
