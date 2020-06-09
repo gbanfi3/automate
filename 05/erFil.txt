@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/gbanfi3/PycharmProjects/automate/05/a30.py", line 9, in <module>
+    raise Exception("valami gond")
+Exception: valami gond
+Traceback (most recent call last):
+  File "/home/gbanfi3/PycharmProjects/automate/05/a30.py", line 9, in <module>
+    raise Exception("valami gond")
+Exception: valami gond
+Traceback (most recent call last):
+  File "/home/gbanfi3/PycharmProjects/automate/05/a30.py", line 9, in <module>
+    raise Exception("valami gond")
+Exception: valami gond

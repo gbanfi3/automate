@@ -1,4 +1,13 @@
 import traceback
-raise Exception("hello world")
+# raise Exception("hello world")
+#
+# print("aa")
+# print(traceback.format_exc())
+# print("bb")
 
-print(traceb)
+try:
+    raise Exception("valami gond")
+except:
+    errorFile = open("./erFil.txt","a")
+    errorFile.write(traceback.format_exc())
+    errorFile.close()
